@@ -8,7 +8,7 @@
 
 %{
 
-#include "common.h"
+#include "system.h"
 #include <stdarg.h>
 #include "vMachine.h"
 

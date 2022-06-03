@@ -1,18 +1,17 @@
 
-project(virt)
+project(vm)
 
-add_executable(${PROJECT_NAME}
-    runLoop.c
-    doArith.c
-    doComp.c
-    doJmps.c
-    errors.c
-    virt.c
-)
-
-target_link_libraries(${PROJECT_NAME}
-    vm
-    m
+add_library(${PROJECT_NAME} STATIC
+    memory.c
+    opcodes.c
+    values.c
+    instrStore.c
+    varStore.c
+    callStack.c
+    valStack.c
+    traps.c
+    fileIo.c
+    registers.c
 )
 
 target_include_directories(${PROJECT_NAME}

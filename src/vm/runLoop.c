@@ -1,5 +1,5 @@
 
-#include "common.h"
+#include "system.h"
 #include "runLoop.h"
 #include "opcodes.h"
 //#include "vMachine.h"

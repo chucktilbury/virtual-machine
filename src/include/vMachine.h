@@ -1,7 +1,7 @@
 #ifndef VMACHINE_H
 #define VMACHINE_H
 
-#include "common.h"
+#include "system.h"
 #include "memory.h"
 #include "values.h"
 #include "varStore.h"

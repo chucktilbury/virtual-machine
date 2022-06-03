@@ -1,5 +1,5 @@
 
-#include "common.h"
+#include "system.h"
 #include "vMachine.h"
 #include "opcodes.h"
 #include "traps.h"

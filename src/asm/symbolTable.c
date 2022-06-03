@@ -1,5 +1,5 @@
 
-#include "common.h"
+#include "system.h"
 #include "memory.h"
 #include "varStore.h"
 #include "vMachine.h"

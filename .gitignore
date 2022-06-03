@@ -1,6 +1,9 @@
-bin/
-lib/
-.vscode/
+parser.c
+parser.h
+parser.output
+scanner.c
+out/
+build/
 
 # Prerequisites
 *.d

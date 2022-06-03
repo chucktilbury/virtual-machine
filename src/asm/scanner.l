@@ -4,7 +4,7 @@
 //#undef //_TRACE
 //#define //_TRACE(...)
 
-#include "common.h"
+#include "system.h"
 //#include "vm_support.h"
 #include "values.h"
 #include "parser.h"
